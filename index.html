@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bionexus — Câncer, HIV/AIDS e a edição genética</title>
+  <meta name="description" content="Portal educativo da bionexus sobre doenças incuráveis, câncer, HIV/AIDS e edição genética: o que são e as tecnologias que podem mudar esse cenário.">
+  <link rel="icon" href="img/logo-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Barra superior -->
+  <div class="topline topbar">
+    <div class="container topline-inner">
+      <span>PORTAL EDUCATIVO · CIÊNCIA E SAÚDE</span>
+      <div class="topbar-actions">
+        <button type="button" class="topbar-search" aria-expanded="false" aria-controls="search-panel">Pesquisar</button>
+        <a class="topbar-cta" href="#fontes">Ver fontes</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cabeçalho e menu com submenus -->
+  <header class="site-header">
+    <div class="container header-main">
+      <a class="brand" href="#">
+        <svg class="brand-logo" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lgh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1fc2b4"/><stop offset="1" stop-color="#1f6f9c"/></linearGradient></defs><rect width="64" height="64" rx="19" fill="url(#lgh)"/><path d="M22 11C22 25 42 25 42 32S22 39 22 53" fill="none" stroke="#fff" stroke-width="4.6" stroke-linecap="round"/><path d="M42 11C42 25 22 25 22 32S42 39 42 53" fill="none" stroke="#fff" stroke-width="4.6" stroke-linecap="round" opacity=".62"/><path d="M27 18.5H37M27 45.5H37" stroke="#fff" stroke-width="3.2" stroke-linecap="round" opacity=".9"/><circle cx="51" cy="13" r="5.2" fill="#ffb199" stroke="#fff" stroke-width="1.8"/></svg>
+        <span class="brand-copy">
+          <strong>bio<span>nexus</span></strong>
+          <small>CIÊNCIA E SAÚDE</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#">Home</a>
+
+        <div class="has-sub">
+          <button type="button" class="sub-toggle" aria-expanded="false">Quem Somos</button>
+          <div class="submenu">
+            <a href="#quem-somos">Sobre a bionexus</a>
+            <a href="#quem-somos">Nosso objetivo</a>
+          </div>
+        </div>
+
+        <div class="has-sub">
+          <button type="button" class="sub-toggle" aria-expanded="false">Temas</button>
+          <div class="submenu">
+            <a href="#incuraveis">Doenças incuráveis</a>
+            <a href="#cancer">Câncer</a>
+            <a href="#genoma">Genoma e edição genética</a>
+            <a href="#hiv">HIV e AIDS</a>
+          </div>
+        </div>
+
+        <a href="#pesquisas">Pesquisas</a>
+        <a href="#numeros">Números</a>
+        <a href="#fontes">Fontes</a>
+        <a href="#novidades" class="nav-contact">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Pesquisa (abre pelo botão "Pesquisar") -->
+  <section id="search-panel" class="quick-search-section" hidden>
+    <div class="container">
+      <div class="search-panel">
+        <div>
+          <span class="search-kicker">PESQUISAR NO SITE</span>
+          <h2>Temas principais</h2>
+        </div>
+        <form id="site-search-form" class="search-form" role="search">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <label for="site-search" class="sr-only">Pesquisar tema</label>
+          <input id="site-search" type="search" placeholder="Ex.: incuráveis, câncer, CRISPR, HIV, pesquisas...">
+          <button type="submit" class="button button-dark">Pesquisar</button>
+        </form>
+        <p id="search-feedback" class="search-feedback" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+
+  <main id="conteudo">
+    <!-- Banner principal -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span>DIVULGAÇÃO CIENTÍFICA</span>
+          <h1>Câncer, HIV/AIDS e a <em>edição genética</em></h1>
+          <p>Doenças difíceis de curar e as tecnologias que podem mudar esse cenário. Já pensou em editar uma pessoa?</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#areas">Explorar temas</a>
+            <a class="button button-outline" href="#pesquisas">Ver pesquisas</a>
+          </div>
+          <div class="hero-trust">
+            <span class="trust-icon">✓</span>
+            <span>Conteúdo educativo, com fontes oficiais. Não substitui avaliação médica.</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-orbit orbit-a"></div>
+          <div class="art-orbit orbit-b"></div>
+          <img class="hero-team" src="img/hero-equipe.png" alt="">
+          <div class="floating-tag tag-top"><span class="tag-dot tag-blue"></span>CRISPR-Cas9</div>
+          <div class="floating-tag tag-bottom"><span class="tag-dot tag-green"></span>CAR-T e terapia gênica</div>
+          <span class="art-spark spark-one">✦</span>
+          <span class="art-spark spark-two">✧</span>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <div class="container hero-bottom-inner">
+          <span>CÂNCER</span><span class="hero-line"></span><span>HIV E AIDS</span><span class="hero-line"></span><span>EDIÇÃO GENÉTICA</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quem Somos -->
+    <section id="quem-somos" class="section about-strip">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <div class="about-visual-circle"></div>
+          <div class="about-quote">
+            <span class="quote-mark">“</span>
+            <p>Já pensou em editar uma pessoa?</p>
+            <span class="quote-source">PONTO DE PARTIDA</span>
+          </div>
+          <div class="about-mini-card">
+            <span class="mini-check">✓</span>
+            <span>Conteúdo com fontes oficiais</span>
+          </div>
+        </div>
+
+        <div class="about-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span>QUEM SOMOS</span>
+          <h2>A bionexus explica ciência e saúde em linguagem simples</h2>
+          <p>Somos um portal educativo que reúne, em um só lugar, o que são doenças incuráveis, o que é o câncer, como o HIV age e como a edição genética pode mudar o tratamento de doenças hoje difíceis de curar.</p>
+          <p>Cada tema é organizado em seções curtas, com imagens explicativas e links para as fontes que sustentam o conteúdo.</p>
+          <a class="text-link" href="#fontes">Consultar fontes <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Temas principais -->
+    <section id="areas" class="section topics-section">
+      <div class="container">
+        <div class="section-heading section-heading-row">
+          <div>
+            <span class="eyebrow"><span class="eyebrow-dot"></span>TÓPICOS EM DESTAQUE</span>
+            <h2>Temas principais</h2>
+            <p>Escolha um cartão para ir direto à seção ou use a pesquisa no topo da página.</p>
+          </div>
+          <a class="text-link" href="#fontes">Consultar fontes <span>→</span></a>
+        </div>
+
+        <div class="topic-grid">
+          <a class="topic-card" href="#incuraveis" data-search="incuravel incurável incuraveis incuráveis cronica crônica cura controle diabetes alzheimer hipertensao">
+            <span class="topic-thumb"><img src="img/topico-incuraveis.png" alt="Médico e paciente: resumo sobre doenças incuráveis" loading="lazy"></span>
+            <span class="topic-label">CONCEITOS</span>
+            <h3>Doenças incuráveis</h3>
+            <p>O que significam, tipos e por que ainda não têm cura.</p>
+            <span class="card-arrow">→</span>
+          </a>
+          <a class="topic-card" href="#cancer" data-search="cancer câncer tumores celulas tratamento quimioterapia radioterapia">
+            <span class="topic-thumb"><img src="img/topico-cancer.png" alt="Médica e paciente: resumo sobre câncer" loading="lazy"></span>
+            <span class="topic-label">ONCOLOGIA</span>
+            <h3>Câncer</h3>
+            <p>O que é, principais causas e tratamentos.</p>
+            <span class="card-arrow">→</span>
+          </a>
+          <a class="topic-card" href="#genoma" data-search="genoma dna crispr cas9 edicao genetica terapia genica">
+            <span class="topic-thumb"><img src="img/topico-genetica.png" alt="Cientistas e DNA: resumo sobre edição genética" loading="lazy"></span>
+            <span class="topic-label">GENÉTICA</span>
+            <h3>Edição genética</h3>
+            <p>CRISPR-Cas9, edição de bases e terapia gênica.</p>
+            <span class="card-arrow">→</span>
+          </a>
+          <a class="topic-card" href="#pesquisas" data-search="pesquisas estudos car-t minnesota ucsf butantan usp be-car7 linfoma leucemia">
+            <span class="topic-thumb"><img src="img/topico-pesquisas.png" alt="Pesquisadores: resumo sobre as pesquisas" loading="lazy"></span>
+            <span class="topic-label">PESQUISAS</span>
+            <h3>Pesquisas</h3>
+            <p>Estudos recentes que deram certo contra o câncer.</p>
+            <span class="card-arrow">→</span>
+          </a>
+          <a class="topic-card" href="#hiv" data-search="hiv aids virus transmissao prevencao arv camisinha prep tratamento">
+            <span class="topic-thumb"><img src="img/topico-hiv.png" alt="Pessoas com laço vermelho: resumo sobre HIV e AIDS" loading="lazy"></span>
+            <span class="topic-label">IMUNOLOGIA</span>
+            <h3>HIV e AIDS</h3>
+            <p>Transmissão, prevenção, tratamento e busca pela cura.</p>
+            <span class="card-arrow">→</span>
+          </a>
+        </div>
+
+        <div id="no-results" class="no-results" hidden>
+          Nenhum tema corresponde ao termo pesquisado. Limpe o campo para ver todos os tópicos.
+        </div>
+      </div>
+    </section>
+
+    <!-- Doenças incuráveis -->
+    <section id="incuraveis" class="section content-section incuraveis-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow"><span class="eyebrow-dot"></span>DOENÇAS INCURÁVEIS</span>
+          <h2>O que são doenças incuráveis?</h2>
+          <p>Uma doença é considerada incurável quando ainda não existe tratamento capaz de eliminá-la de forma definitiva. Isso não quer dizer que não haja tratamento: muitas podem ser controladas por toda a vida.</p>
+        </div>
+
+        <figure class="topic-banner reveal"><img src="img/topico-incuraveis.png" alt="Médico e paciente com resumo sobre doenças incuráveis" loading="lazy"></figure>
+
+        <div class="stat-strip">
+          <strong>52%</strong>
+          <span>dos adultos brasileiros já receberam diagnóstico de pelo menos uma doença crônica (Pesquisa Nacional de Saúde 2019, Ministério da Saúde e IBGE).</span>
+        </div>
+
+        <div class="concept-grid">
+          <article class="concept-card concept-cure">
+            <span class="concept-tag">CURÁVEL</span>
+            <h3>O tratamento elimina a doença</h3>
+            <p>Depois do tratamento, a doença desaparece e a pessoa é considerada curada.</p>
+            <ul class="concept-examples"><li>Pneumonia bacteriana</li><li>Hepatite C</li><li>Alguns cânceres detectados cedo</li></ul>
+          </article>
+          <article class="concept-card concept-control">
+            <span class="concept-tag">INCURÁVEL, MAS CONTROLÁVEL</span>
+            <h3>Sem cura definitiva, com controle</h3>
+            <p>O tratamento mantém a doença sob controle e permite uma vida longa, com acompanhamento contínuo.</p>
+            <ul class="concept-examples"><li>Diabetes</li><li>Hipertensão</li><li>HIV, com antirretrovirais</li><li>Asma</li></ul>
+          </article>
+          <article class="concept-card concept-limited">
+            <span class="concept-tag">OPÇÕES LIMITADAS</span>
+            <h3>A ciência ainda busca terapias</h3>
+            <p>Os tratamentos aliviam sintomas ou retardam a doença, mas ainda não mudam seu curso por completo.</p>
+            <ul class="concept-examples"><li>Alzheimer</li><li>Esclerose lateral amiotrófica (ELA)</li><li>Doença de Huntington</li></ul>
+          </article>
+        </div>
+
+        <div class="treatment-block">
+          <div>
+            <span class="eyebrow"><span class="eyebrow-dot"></span>POR QUÊ</span>
+            <h3>Por que algumas doenças ainda não têm cura?</h3>
+            <p>Cada doença esbarra em um obstáculo diferente da biologia.</p>
+          </div>
+          <div class="treatment-list">
+            <article>
+              <span class="treatment-number">01</span>
+              <div><h4>Estão escritas no DNA</h4><p>Doenças genéticas, como a anemia falciforme, nascem de erros no código genético.</p></div>
+            </article>
+            <article>
+              <span class="treatment-number">02</span>
+              <div><h4>Escondem-se nas células</h4><p>O HIV integra seu material genético ao DNA das células de defesa, o que dificulta eliminá-lo.</p></div>
+            </article>
+            <article>
+              <span class="treatment-number">03</span>
+              <div><h4>Mudam e resistem</h4><p>Células tumorais acumulam mutações e podem escapar do tratamento.</p></div>
+            </article>
+            <article>
+              <span class="treatment-number">04</span>
+              <div><h4>Danos difíceis de reverter</h4><p>Lesões em células do cérebro, como no Alzheimer, não se regeneram com facilidade.</p></div>
+            </article>
+          </div>
+        </div>
+
+        <div class="hope-card">
+          <span class="hope-icon">✦</span>
+          <div>
+            <h3>A edição genética abre novos caminhos</h3>
+            <p>Em 2023, o Casgevy tornou-se a primeira terapia baseada em CRISPR/Cas9 aprovada, no Reino Unido e depois nos Estados Unidos, para a anemia falciforme, uma doença hereditária do sangue. Em estudos, a grande maioria dos pacientes ficou pelo menos um ano sem crises graves de dor.</p>
+            <a class="text-link" href="#genoma">Entenda a edição genética <span>→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Câncer -->
+    <section id="cancer" class="section content-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow"><span class="eyebrow-dot"></span>CÂNCER</span>
+          <h2>Câncer: o que é, causas e tratamento</h2>
+          <p>Crescimento descontrolado de células anormais que invadem tecidos saudáveis e formam tumores. Existem mais de 100 tipos.</p>
+        </div>
+
+        <figure class="topic-banner reveal"><img src="img/topico-cancer.png" alt="Médica e paciente com resumo sobre câncer" loading="lazy"></figure>
+
+        <div class="feature-grid">
+          <figure class="figure-card">
+            <img src="img/cancer.png" alt="Formação do câncer: célula, tecido e órgão normais comparados aos tumorais" loading="lazy">
+            <figcaption>Formação do câncer: da célula ao órgão</figcaption>
+          </figure>
+          <div class="feature-content">
+            <h3>Principais causas</h3>
+            <p>Genética e histórico familiar, tabagismo, sol em excesso, produtos químicos, vírus (HPV, hepatites B e C), má alimentação, álcool, obesidade e idade.</p>
+            <h3>Tratamentos</h3>
+            <p>A escolha depende do tipo e do estágio da doença.</p>
+            <div class="pill-list">
+              <span>Cirurgia</span><span>Quimioterapia</span><span>Radioterapia</span>
+              <span>Terapia-alvo</span><span>Imunoterapia</span><span>Cuidados paliativos</span>
+            </div>
+            <div class="info-note">
+              <span class="note-icon">i</span>
+              <p>Este conteúdo tem fins informativos e não substitui avaliação médica especializada.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Genoma e edição genética -->
+    <section id="genoma" class="section genetics-section">
+      <div class="container">
+        <div class="genetics-header">
+          <div>
+            <span class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span>GENÉTICA</span>
+            <h2>Genoma: o “código-fonte” e como editá-lo</h2>
+            <p>O câncer surge de erros (mutações) no DNA. Hoje é possível ler e corrigir esse código.</p>
+          </div>
+        </div>
+
+        <figure class="topic-banner topic-banner-dark reveal"><img src="img/topico-genetica.png" alt="Cientistas e DNA com resumo sobre edição genética" loading="lazy"></figure>
+
+        <div class="genetics-cards">
+          <article class="genetics-card">
+            <div class="gene-card-top"><span class="gene-index">01</span><span class="gene-icon">✂</span></div>
+            <h3>CRISPR-Cas9: tesoura molecular</h3>
+            <p>O RNA guia (o “GPS”) localiza o DNA defeituoso e a enzima Cas9 corta no ponto exato.</p>
+            <span class="gene-tag">EDIÇÃO</span>
+          </article>
+          <article class="genetics-card">
+            <div class="gene-card-top"><span class="gene-index">02</span><span class="gene-icon">A</span></div>
+            <h3>Edição de bases: corretor ortográfico</h3>
+            <p>Troca uma única “letra” do DNA sem cortar a fita dupla, com mais segurança.</p>
+            <span class="gene-tag">PRECISÃO</span>
+          </article>
+          <article class="genetics-card">
+            <div class="gene-card-top"><span class="gene-index">03</span><span class="gene-icon">G</span></div>
+            <h3>Terapia gênica: pendrive biológico</h3>
+            <p>Vírus inofensivos levam um gene saudável ou anticâncer para dentro das células.</p>
+            <span class="gene-tag">TERAPIA</span>
+          </article>
+        </div>
+
+        <figure class="diagram-card reveal"><img src="img/crispr-passo-a-passo.svg" alt="CRISPR-Cas9 em três passos: localizar, cortar e editar" loading="lazy"></figure>
+
+        <div class="pros-cons">
+          <div><strong>Prós</strong><span>Precisão, tratamento personalizado e efeito duradouro.</span></div>
+          <div><strong>Contras</strong><span>Efeitos fora do alvo, custo alto e estudos ainda pequenos.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pesquisas -->
+    <section id="pesquisas" class="section topics-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow"><span class="eyebrow-dot"></span>PESQUISAS</span>
+          <h2>Pesquisas que deram certo contra o câncer</h2>
+          <p>Estudos recentes mostram resultados promissores com edição genética e células CAR-T.</p>
+        </div>
+
+        <figure class="topic-banner reveal"><img src="img/topico-pesquisas.png" alt="Pesquisadores com resumo sobre as pesquisas" loading="lazy"></figure>
+
+        <div class="research-grid">
+          <article class="research-card">
+            <span class="research-tag">MINNESOTA (EUA) · 2025</span>
+            <h3>CRISPR em células T</h3>
+            <p>O CRISPR desligou o gene CISH em células T. Em 12 pacientes avançados, o tratamento foi seguro e houve uma resposta completa, sem retorno por mais de 2 anos.</p>
+          </article>
+          <article class="research-card">
+            <span class="research-tag">REINO UNIDO · 2026</span>
+            <h3>BE-CAR7</h3>
+            <p>Células com edição de bases induziram remissão em leucemia de células T e permitiram o transplante na maioria dos 11 pacientes.</p>
+          </article>
+          <article class="research-card">
+            <span class="research-tag">BRASIL · 2026</span>
+            <h3>CAR-T (USP, Butantan)</h3>
+            <p>Resposta preliminar de 87,5% em linfoma não Hodgkin sem outras opções. Foram tratados 25 pacientes; a meta é levar ao SUS.</p>
+          </article>
+          <article class="research-card">
+            <span class="research-tag">UCSF (EUA) · 2026</span>
+            <h3>CAR-T criada dentro do corpo</h3>
+            <p>Em animais, o câncer detectável sumiu em duas semanas. Ainda não foi testada em humanos.</p>
+          </article>
+        </div>
+
+        <figure class="diagram-card reveal"><img src="img/car-t-passo-a-passo.svg" alt="CAR-T em quatro passos: coleta, edição, multiplicação e infusão" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <!-- HIV e AIDS -->
+    <section id="hiv" class="section content-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow"><span class="eyebrow-dot"></span>HIV E AIDS</span>
+          <h2>HIV e AIDS: vírus, transmissão e prevenção</h2>
+          <p>O HIV é o vírus que ataca o sistema imunológico. A AIDS é o estágio avançado, sem tratamento.</p>
+        </div>
+
+        <figure class="topic-banner reveal"><img src="img/topico-hiv.png" alt="Pessoas com laço vermelho e resumo sobre HIV e AIDS" loading="lazy"></figure>
+
+        <div class="feature-grid">
+          <figure class="figure-card figure-square">
+            <img src="img/hiv-campanha.jpg" alt="Campanha do Ministério da Saúde: assim não pega e assim pega o HIV" loading="lazy">
+            <figcaption>Campanha do Ministério da Saúde: aids.gov.br</figcaption>
+          </figure>
+          <div class="feature-content">
+            <h3>Como se transmite</h3>
+            <p>Sexo sem proteção, de mãe para bebê, seringas compartilhadas e sangue ou órgãos não testados.</p>
+            <h3>Prevenção</h3>
+            <p>Camisinha, não compartilhar agulhas, PrEP e testes rápidos gratuitos no SUS.</p>
+            <div class="pill-list">
+              <span>Camisinha</span><span>PrEP</span><span>Testes rápidos</span><span>Seringas individuais</span>
+            </div>
+            <div class="info-note">
+              <span class="note-icon">i</span>
+              <p>Beijo, aperto de mão, abraço e uso coletivo de banheiro ou piscina não transmitem o HIV.</p>
+            </div>
+          </div>
+        </div>
+
+        <figure class="diagram-card reveal"><img src="img/hiv-prevencao-tratamento.svg" alt="Prevenção e tratamento do HIV: camisinha, PrEP, teste rápido e ARV" loading="lazy"></figure>
+
+        <div class="treatment-block">
+          <div>
+            <span class="eyebrow"><span class="eyebrow-dot"></span>TRATAMENTO</span>
+            <h3>Tratamento e busca pela cura</h3>
+            <p>O tratamento controla o vírus, mas ainda não o elimina do organismo.</p>
+          </div>
+          <div class="treatment-list">
+            <article>
+              <span class="treatment-number">01</span>
+              <div>
+                <h4>Tratamento com ARV</h4>
+                <p>Gratuito no SUS desde 1996. Com carga viral indetectável, não há transmissão sexual (I=I). Mas não elimina o vírus.</p>
+              </div>
+            </article>
+            <article>
+              <span class="treatment-number">02</span>
+              <div>
+                <h4>Terapia gênica</h4>
+                <p>Em camundongos, ARV de liberação lenta com CRISPR-Cas9 eliminou o HIV do genoma. Abre caminho para testes em humanos.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <figure class="figure-wide">
+          <img src="img/hiv-ciclo.png" alt="Ciclo de vida do vírus HIV e progressão para a AIDS" loading="lazy">
+          <figcaption>Ciclo do HIV: o vírus integra seu material genético ao DNA das células de defesa.</figcaption>
+        </figure>
+
+        <div class="fibro-alert">
+          <span class="alert-icon">✓</span>
+          <p><strong>Conclusão:</strong> a edição genética não é cura para tudo, mas é um dos caminhos mais promissores para tornar curáveis doenças hoje consideradas permanentes.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Números -->
+    <section id="numeros" class="section numbers-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span>EM NÚMEROS</span>
+          <h2>Ciência em números</h2>
+        </div>
+        <div class="numbers-grid">
+          <div class="number-card">
+            <strong class="counter" data-target="100" data-prefix="+">+100</strong>
+            <span>tipos de câncer conhecidos</span>
+          </div>
+          <div class="number-card">
+            <strong class="counter" data-target="87.5" data-decimals="1" data-suffix="%">87,5%</strong>
+            <span>resposta preliminar da CAR-T brasileira no linfoma</span>
+          </div>
+          <div class="number-card">
+            <strong class="counter" data-target="12">12</strong>
+            <span>pacientes avançados no estudo de Minnesota</span>
+          </div>
+          <div class="number-card">
+            <strong class="counter" data-target="2" data-prefix="+" data-suffix=" anos">+2 anos</strong>
+            <span>sem retorno da doença em resposta completa</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter / contato -->
+    <section id="novidades" class="section newsletter-section">
+      <div class="container newsletter-grid">
+        <div>
+          <span class="eyebrow"><span class="eyebrow-dot"></span>NEWSLETTER</span>
+          <h2>Fique por dentro das novidades da bionexus</h2>
+          <p>Receba novos conteúdos sobre câncer, HIV/AIDS e edição genética.</p>
+        </div>
+        <div>
+          <div id="newsletter-feedback" aria-live="polite"></div>
+          <form id="newsletter-form" class="newsletter-form" novalidate>
+            <label for="newsletter-email" class="sr-only">E-mail</label>
+            <input id="newsletter-email" type="email" placeholder="Seu melhor e-mail" required>
+            <button type="submit" class="button button-dark">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fontes -->
+    <section id="fontes" class="section sources-section">
+      <div class="container sources-layout">
+        <div class="sources-intro">
+          <span class="eyebrow"><span class="eyebrow-dot"></span>FONTES</span>
+          <h2>Referências</h2>
+          <p>Para aprofundar os temas, consulte as fontes oficiais e os artigos científicos usados neste conteúdo.</p>
+        </div>
+
+        <div class="sources-list">
+          <a href="https://www.gov.br/aids/pt-br" target="_blank" rel="noopener noreferrer">
+            <span class="source-type">SAÚDE · BRASIL</span>
+            <strong>Ministério da Saúde: HIV/AIDS</strong>
+            <span class="source-arrow">↗</span>
+          </a>
+          <a href="https://hivinfo.nih.gov/" target="_blank" rel="noopener noreferrer">
+            <span class="source-type">HIV · EUA</span>
+            <strong>HIVinfo (NIH)</strong>
+            <span class="source-arrow">↗</span>
+          </a>
+          <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3250702/" target="_blank" rel="noopener noreferrer">
+            <span class="source-type">ARTIGO · PMC3250702</span>
+            <strong>PubMed Central</strong>
+            <span class="source-arrow">↗</span>
+          </a>
+          <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5414815/" target="_blank" rel="noopener noreferrer">
+            <span class="source-type">ARTIGO · PMC5414815</span>
+            <strong>PubMed Central</strong>
+            <span class="source-arrow">↗</span>
+          </a>
+          <a href="https://www.fda.gov/news-events/press-announcements/la-fda-aprueba-las-primeras-terapias-genicas-para-tratar-pacientes-con-anemia-de-celulas-falciformes" target="_blank" rel="noopener noreferrer">
+            <span class="source-type">TERAPIA GÊNICA · FDA</span>
+            <strong>Aprovação do Casgevy (CRISPR)</strong>
+            <span class="source-arrow">↗</span>
+          </a>
+          <a href="https://www.gov.br/saude/pt-br/composicao/saes/doencas-raras/tratamentos" target="_blank" rel="noopener noreferrer">
+            <span class="source-type">SAÚDE · BRASIL</span>
+            <strong>Ministério da Saúde: doenças raras e tratamentos</strong>
+            <span class="source-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bx-footer">
+    <div class="container bx-footer-grid">
+      <div>
+        <a class="brand brand-footer" href="#">
+          <svg class="brand-logo" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lgf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1fc2b4"/><stop offset="1" stop-color="#1f6f9c"/></linearGradient></defs><rect width="64" height="64" rx="19" fill="url(#lgf)"/><path d="M22 11C22 25 42 25 42 32S22 39 22 53" fill="none" stroke="#fff" stroke-width="4.6" stroke-linecap="round"/><path d="M42 11C42 25 22 25 22 32S42 39 42 53" fill="none" stroke="#fff" stroke-width="4.6" stroke-linecap="round" opacity=".62"/><path d="M27 18.5H37M27 45.5H37" stroke="#fff" stroke-width="3.2" stroke-linecap="round" opacity=".9"/><circle cx="51" cy="13" r="5.2" fill="#ffb199" stroke="#fff" stroke-width="1.8"/></svg>
+          <span class="brand-copy"><strong>bio<span>nexus</span></strong><small>CIÊNCIA E SAÚDE</small></span>
+        </a>
+        <p class="bx-footer-badge">Informação clara sobre saúde e ciência.</p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul class="bx-footer-links">
+          <li><a href="#quem-somos">Quem Somos</a></li>
+          <li><a href="#areas">Temas</a></li>
+          <li><a href="#pesquisas">Pesquisas</a></li>
+          <li><a href="#numeros">Números</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Temas</h4>
+        <ul class="bx-footer-links">
+          <li><a href="#incuraveis">Doenças incuráveis</a></li>
+          <li><a href="#cancer">Câncer</a></li>
+          <li><a href="#genoma">Edição genética</a></li>
+          <li><a href="#hiv">HIV e AIDS</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Mais</h4>
+        <ul class="bx-footer-links">
+          <li><a href="#fontes">Fontes</a></li>
+          <li><a href="#novidades">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© bionexus — portal educativo de ciência e saúde</span>
+        <span>Conteúdo informativo, não substitui avaliação médica.</span>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
